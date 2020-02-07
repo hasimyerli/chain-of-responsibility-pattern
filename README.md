@@ -6,12 +6,15 @@ In this example, chain of responsibility is implemented with pattern php.
 ```php
 $productRuleService = new \src\Business\RuleService\ProductRuleService();
 
-$product = new \src\Object\ProductObject("5");
+$product = new \src\Object\ProductObject(5);
 
 $productRuleService->validate($product);
 
 $validation = $productRuleService->getValidation();
 
-echo $validation;
+echo $validation; 
+
+#Output 
+#You can buy this product!
 ```
 I will write a more detailed article on this topic in the future so follow [blog](hasimyerli.com/blog).
