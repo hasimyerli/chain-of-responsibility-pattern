@@ -2,6 +2,8 @@
 
 In this example, **chain of responsibility pattern** is implemented with php.
 
+>composer install
+
 ##### Example
 ```php
 $productRuleService = new \src\Business\RuleService\ProductRuleService();
