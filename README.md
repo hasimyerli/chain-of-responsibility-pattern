@@ -1,6 +1,6 @@
 # Chain of responsibility pattern
 
-In this example, chain of responsibility is implemented with pattern php.
+In this example, chain of responsibility pattern is implemented php.
 
 ##### Example
 ```php
