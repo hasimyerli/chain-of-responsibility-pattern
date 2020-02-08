@@ -19,4 +19,4 @@ echo $validation;
 #Output 
 #You can buy this product!
 ```
-I will write a more detailed article on this topic in the future so follow [my blog](http://hasimyerli.com/blog).
+I will write a more detailed article on this topic in the future so follow [my blog](https://hasimyerli.com/blog/php-chain-of-responsibility-pattern).
