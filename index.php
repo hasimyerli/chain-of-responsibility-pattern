@@ -9,18 +9,16 @@ $productRuleService = new \src\Business\RuleService\ProductRuleService();
 # Example 1
 $product = new \src\Object\ProductObject(5);
 $productRuleService->validate($product);
-$validation = $productRuleService->getValidation() ? $productRuleService->getValidation() : "You can buy this product!";
-echo $validation."<br>";
+$validation = ;
+echo $productRuleService->getValidation() ?? "You can buy this product!\n";
 
 
 # Example 2
 $product = new \src\Object\ProductObject(100, false);
 $productRuleService->validate($product);
-$validation = $productRuleService->getValidation() ? $productRuleService->getValidation() : "You can buy this product!";
-echo $validation."<br>";
+echo $productRuleService->getValidation() ?? "You can buy this product!\n";
 
 # Example 3
 $product = new \src\Object\ProductObject(1000);
 $productRuleService->validate($product);
-$validation = $productRuleService->getValidation() ? $productRuleService->getValidation() : "You can buy this product!";
-echo $validation."<br>";
+echo $productRuleService->getValidation() ?? "You can buy this product!\n";
