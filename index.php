@@ -9,7 +9,6 @@ $productRuleService = new \src\Business\RuleService\ProductRuleService();
 # Example 1
 $product = new \src\Object\ProductObject(5);
 $productRuleService->validate($product);
-$validation = ;
 echo $productRuleService->getValidation() ?? "You can buy this product!\n";
 
 
